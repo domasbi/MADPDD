@@ -8,4 +8,4 @@ This is a MATLAB script for plotting a distribution of pixels from GROD analysis
 This script uses raw data produced by using EDAX TSL OIM EBSD software. Some adjustment might be necessary for data files produced by Oxford, Bruker etc. EBSD systems.
 
 In current folder, "grod_data.txt" file is used as input. Original file contained some explanatory text which was removed to avoid conflicts in MATLAB.
-MATLAB script (madpdd.m) reads the data file and plots Number of scanned points versus the misorientation angle and generates a plot as .png image file (MADPDD.png in this case). 
+MATLAB script (madpdd.m) reads the data file and plots Number of scanned points versus the misorientation angle which is then saved as .png image file (MADPDD.png in this case).

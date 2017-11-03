@@ -8,7 +8,7 @@ close all
 % Col 3 - Image quality
 % Col 4 - Misorientation angle
 % Only Col 4 is important so we assign data in Col 4 to vector "E"
-filepath1 = 'air17.txt';
+filepath1 = 'grod_data.txt';
 A = fscanf(fopen(filepath1,'r'),'%f',[4 inf]);
 E = A(4,:);
 
